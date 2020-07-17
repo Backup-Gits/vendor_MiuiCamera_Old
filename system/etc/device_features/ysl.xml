@@ -41,7 +41,7 @@
     <!--whether the device supports emulated storage-->
     <bool name="support_emulated_storage">true</bool>
     <!--whether the device supports internal sdcard-->
-    <bool name="support_internal_sdcard">false</bool>
+    <bool name="support_internal_sdcard">true</bool>
     <!--whether the device supports power mode-->
     <bool name="support_power_mode">false</bool>
     <!--whether the device supports dolby-->
@@ -134,7 +134,7 @@
     <!--whether support object tracking in camera-->
     <bool name="support_object_track">false</bool>
     <!--whether support 4k recording in camera-->
-    <bool name="support_camera_4k_quality">false</bool>
+    <bool name="support_camera_4k_quality">true</bool>
     <!--whether support audio focus recording in camera-->
     <bool name="support_camera_audio_focus">false</bool>
     <!--whether use morpho lib in camera-->
@@ -339,6 +339,8 @@
     <bool name="support_freeform_reply">true</bool>
     <!--wether support ime xiaoai voice input-->
     <bool name="surpport_ime_xiaoai_voice">true</bool>
+    <!-- whther disable camera video EIS for slow mode -->
+    <bool name="disable_video_stabilization_in_speed_slow_mode">true</bool>
     <!--These region support face unlock-->
     <string-array name="support_face_unlock_region_global">
         <item>IN</item>
